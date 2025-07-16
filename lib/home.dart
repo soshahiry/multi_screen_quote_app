@@ -18,13 +18,13 @@ class Home extends StatelessWidget {
       author: "Robert Frost",
     ),
     Quote(
-      quote: "We accept the love we think we deserve",
+      quote: "helloloooo",
       author: "Stephen Chbosky",
     ),
     Quote(
       quote:
-          "I am so clever that sometimes I don't understand a single word of what I am saying",
-      author: "Oscar Wilde",
+          "Be Yourself;Everyone else is already Taken",
+      author: "Lubin",
     ),
   ];
 
@@ -45,7 +45,7 @@ class Home extends StatelessWidget {
           },
             child: Card(
                 color: Colors.black,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.circular(3)),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.circular(4)),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Column(
